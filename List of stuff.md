@@ -3,7 +3,7 @@ title: Films
 layout: landing
 description: 'A few short films'
 image: assets/images/film.png
-nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->
