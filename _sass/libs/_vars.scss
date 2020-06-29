@@ -1,3 +1,12 @@
+@function hsb($h-hsb, $s-hsb, $b-hsb, $a: 1) {
+  @if $b-hsb == 0 {
+    @return hsla(0, 0, 0, $a)
+  } @else {
+    $l-hsl: ($b-hsb/2) * (2 - ($s-hsb/100));
+    $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
+    @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
+  }
+}
 // Misc.
 $misc: (z-index-base: 10000);
 
@@ -30,9 +39,13 @@ $palette: (bg: #242943,
 	border-bg: rgba(212, 212, 255, 0.035),
 	highlight: #9bf1ff,
 // 	accent1: #6fc3df,
-	accent1: rgb(random(255),random(255),random(255)),
-	accent2: #8d82c4,
-	accent3: #ec8d81,
-	accent4: #e7b788,
-	accent5: #8ea9e8,
+	accent1: hsb(random(360),30+random(20),80+random(20)),
+	accent2: hsb(random(360),30+random(20),80+random(20)),
+	accent3: hsb(random(360),30+random(20),80+random(20)),
+	accent4: hsb(random(360),30+random(20),80+random(20)),
+	accent5: hsb(random(360),30+random(20),80+random(20)),
+// 	accent2: #8d82c4,
+// 	accent3: #ec8d81,
+// 	accent4: #e7b788,
+// 	accent5: #8ea9e8,
 	accent6: #87c5a4);
