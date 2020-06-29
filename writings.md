@@ -3,7 +3,7 @@ title: Writings
 layout: landing
 description: 'Some stories'
 image: assets/images/writing.png
-nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->
