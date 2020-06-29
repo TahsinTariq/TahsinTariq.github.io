@@ -1,29 +1,29 @@
 # site settings
-title: Portfolio
-subtitle: Works by Bella Considine
-email: bellaconsidine@yahoo.co.uk
-description: Films and writings by Bella Considine
-baseurl: 
+title: Still in development
+subtitle: By Tahsin Tariq
+email: tahsinbanna@gmail.com
+description: Stuff by Tahsin
+baseurl: "" # the subpath of your site, e.g. /blog
 url: 
-author: Bella Considine
-street_address: 34 Dorrit Crescent
-city: Guildford
-state: Surrey
-zip_code: GU3 3AP
-country: England
+author: Tahsin Tariq
+street_address: 27
+city: Dhanmondi
+state: Dhaka
+zip_code: 
+country: Bangladesh
 phone: 
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 
 # social settings
 500px_url:
 facebook_url:
-github_url:
+github_url: https://github.com/TahsinTariq
 instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.instagram.com/tahsintariqbanna/
 pinterest_url:
 slack_url:
 
