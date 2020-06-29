@@ -3,6 +3,7 @@ layout: post
 title:  The Stars Come Out at Night
 description: Reflections on idols and adolescence, how our heroes become immortal in our eyes.
 nav-menu: false
+show_tile: false
 main_tile: false
 ---
 
