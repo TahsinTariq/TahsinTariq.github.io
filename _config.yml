@@ -6,12 +6,12 @@ description: Stuff by Tahsin
 baseurl: "" # the subpath of your site, e.g. /blog
 url: 
 author: Tahsin Tariq
-street_address: 27
-city: Dhanmondi
-state: Dhaka
+street_address: Road - 27, Dhanmondi
+city: Dhaka
+state: 
 zip_code: 
 country: Bangladesh
-phone: 
+phone: +8801521443393
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
