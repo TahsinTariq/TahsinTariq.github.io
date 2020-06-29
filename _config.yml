@@ -22,10 +22,11 @@ tiles-count: 10
 500px_url:
 facebook_url:
 github_url: https://github.com/TahsinTariq
-instagram_url: https://instagram.com
-linkedin_url: https://www.instagram.com/tahsintariqbanna/
+instagram_url: https://www.instagram.com/tahsintariqbanna/
+linkedin_url: 
 pinterest_url:
 slack_url:
+openprocessing_url: https://www.openprocessing.org/user/230948/
 
 # build settings
 markdown: kramdown
