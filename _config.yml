@@ -1,0 +1,34 @@
+# site settings
+title: Portfolio
+subtitle: Works by Bella Considine
+email: bellaconsidine@yahoo.co.uk
+description: Films and writings by Bella Considine
+baseurl: 
+url: 
+author: Bella Considine
+street_address: 34 Dorrit Crescent
+city: Guildford
+state: Surrey
+zip_code: GU3 3AP
+country: England
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
