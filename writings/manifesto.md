@@ -5,6 +5,7 @@ description: A bitter old man's reflections on love, and lovelessness
 image: assets/images/manifesto.jpg
 nav-menu: false
 main_tile: false
+show_tile: false
 ---
 
 From the moment you are born, you are (due to a combination of chemical, biological and psychological factors, all colliding in your mothers’ brain) loved, and this is generally where the problems begin. You are then loved against your will, either with open arms or cold shoulders, forced into obedience for fear of losing it and it’s comforts, later into half-baked relationships that you invest into expectantly like bonds or shares, sometimes abused, sometimes abusive, at times blissful, at other times cruel. A self-inflicted polarity to give your life in the hopes of avoiding the mundane, eg. the sound of clicks onto emails and small talk in cramped elevators, all to say:
