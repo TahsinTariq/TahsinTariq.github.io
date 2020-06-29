@@ -7,6 +7,7 @@ nav-menu: false
 main_tile: false
 ---
 
-<iframe width="100%" height="560" position="absolute" src="https://youtu.be/fY4qkfjJo6A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 A video on triangulation of different points on a 2D plane using HSB ColorSpace
 
