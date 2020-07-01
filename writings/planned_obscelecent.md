@@ -4,7 +4,9 @@ title: Planned Obscelecent
 description: Being broke, sad and alone in London
 image: assets/images/london.jpg
 nav-menu: false
-main_tile: false
+main_tile: true
+show_tile: false
+
 ---
 
 I found myself on a sofa at six o clock in the morning. All that bollocks about the missing Malaysian air flight was on tv again. I try not to think about him anymore, but I couldn’t help wondering what my dad would make of it all. I remember how after him and my mom broke up he’d lie on the sofa of his flat all day wearing this kind of throwaway broken bulldog look on his face, watching airplane crash documentaries. God knows what channel decided to play airplane crash documentaries all day, what a hoot. I remember being about the size of his big toe, sinking under into the carpet with the litter and flyaway crumbs. Well anyway I was thinking about how if they ever found that plane anywhere, it was on that sofa. I could see it all, the passengers and pilots and air hostesses gawping at the TV on the shrapnel shredded floor. The tattered plane lounging on that same sofa, illuminated by a huge wreck of a hole in the ceiling just above, a flaming pillow smoking next to its nose. It made me chuckle. Watching yourself on the BBC news, now that’s the dream.
