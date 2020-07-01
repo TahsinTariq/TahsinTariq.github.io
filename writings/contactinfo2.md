@@ -1,9 +1,7 @@
 ---
 layout: home
 title: Contact
-description: null
-image: null
-author: null
+description: TBD
 nav-menu: true
 main_tile: true
 show_tile: false
