@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: Contact
 title: Contact
 description: TBD
 nav-menu: true
