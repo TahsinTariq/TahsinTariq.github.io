@@ -19,12 +19,13 @@
 				{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}"
 						alt="" /></span>{% endif %}
                 {{ content }}
-                <!-- {%for picture in site.assets.images%}
+                {%for picture in site.assets.images%}
                 <div class="image-wrapper">
                     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/picture">
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/picture">
-                    </a> -->
-			</div>
+                    </a>
+            </div>
+            {% endfor %}
 		</section>
 
 	</div>
