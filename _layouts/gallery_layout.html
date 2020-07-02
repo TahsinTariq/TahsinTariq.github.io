@@ -28,9 +28,11 @@
                         {% else %}
                             <div style="flex:1; padding:0 3% 0 0">
                         {% endif %}
-                        <p>{{ img.path.dimensions.height }}</p>
-                        <p>{{ img.path.dimensions.width }}</p>
-                        <img src = "{{ img.path }}">
+                        <a href="">
+                            <p>{{ img.path }}</p>
+                            <p>{{ img.path.dimensions }}</p>
+                            <img src = "{{ img.path }}">
+                        </a>
                             </div>
                         {% if remainder == 0 %}
                             </div>
