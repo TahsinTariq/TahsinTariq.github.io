@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 {% endfor %} -->
-                <?php foreach (new DirectoryIterator('{{ site.baseurl }}/{{ page.image }}') as $fileInfo) { ?>
+                <?php foreach (new DirectoryIterator('./assets/images/') as $fileInfo) { ?>
                     <li>
                         <a href="<?php echo $fileInfo->getFilename(); ?>">
                             <p>text</p>
