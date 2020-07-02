@@ -30,6 +30,10 @@ openprocessing_url: https://www.openprocessing.org/user/230948/
 
 # build settings
 markdown: kramdown
-
+defaults:
+  - scope:
+      path: "assets/imgages"
+    values:
+      image: true
 sass:
   style: compressed

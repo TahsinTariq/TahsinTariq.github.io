@@ -25,14 +25,14 @@
                     </a>
                 </div>
                 {% endfor %} -->
-                <?php foreach (new DirectoryIterator('../assets/images/') as $fileInfo) { ?>
-                    <li>Menu Item <?php echo $fileInfo->getFilename(); ?>
-                        <!-- <a href="<?php echo $fileInfo->getFilename(); ?>">
-                            <p>text</p>
-                        </a> -->
-                        <!-- <img src="{{ site.url }}{{ site.baseurl }}/<?php echo $fileInfo->getFilename(); ?>"> -->
-                    </li>
-                <?php } ?>
+                {% assign image_files = site.static_files | where: "image", true %}
+                {% for myimage in image_files %}
+                    {{ myimage.path }}
+                {% endfor %}
+
+
+
+
 
 		</section>
 
