@@ -19,10 +19,10 @@
 				<!-- {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}"
 						alt="" /></span>{% endif %} -->
                 {{ content }}
-                {%for picture in site.assets.images%}
+                {%for picture in page.image%}
                 <div class="image-wrapper">
-                    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/picture">
-                        text
+                    <a href="{{ site.baseurl }}/{{ page.image }}/{{picture}}">
+                        <p>text</p>
                         <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/picture"> -->
                     </a>
                 </div>
