@@ -10,5 +10,5 @@ show_tile: true
 ---
 
 Showing content!!!!!
-
+flex --->
 {% include flexgallery.html %}
