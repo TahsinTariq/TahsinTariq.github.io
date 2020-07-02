@@ -27,9 +27,12 @@
                     </a>
                 </div>
                 {% endfor %} -->
-                <?php foreach (new DirectoryIterator('./areas/js/build/bundles/') as $fileInfo) { ?>
+                <?php foreach (new DirectoryIterator('{{ site.baseurl }}/{{ page.image }}') as $fileInfo) { ?>
                     <li>
-                        <img src="{{ site.url }}{{ site.baseurl }}/<?php echo $fileInfo->getFilename(); ?>">
+                        <a href="<?php echo $fileInfo->getFilename(); ?>">
+                            <p>text</p>
+                        </a>
+                        <!-- <img src="{{ site.url }}{{ site.baseurl }}/<?php echo $fileInfo->getFilename(); ?>"> -->
                     </li>
                 <?php } ?>
 
