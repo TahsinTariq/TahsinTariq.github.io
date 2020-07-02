@@ -38,20 +38,6 @@
                     {% endfor %}
                 </div>
 
-
-
-
-
-                {% assign num = 0 %}
-                {% for myimage in image_files %}
-                    <li>
-                        <a href="{{ myimage.path }}">
-                            <p>{{num}}</p>
-                            <img src="{{ myimage.path }}">
-                        </a>
-                    </li>
-                    {% assign num = num | plus:1 %}
-                {% endfor %}
 		</section>
 	</div>
 	{% include footer.html %}
