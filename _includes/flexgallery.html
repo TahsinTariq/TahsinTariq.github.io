@@ -11,9 +11,9 @@
   {% assign imgCount = 1 %}
   {% for img in flexgallery %}
     {% if imgCount >= flexgallery.size or img.end_row == "true" %}
-      <div style="flex:{{ img.aspect }}">
+      <div style="flex:1">
     {% else %}
-      <div style="flex:{{ img.aspect }}; padding:0 3% 0 0">
+      <div style="flex:1; padding:0 3% 0 0">
     {% endif %}
     {% if img.url %}
       <a href=
