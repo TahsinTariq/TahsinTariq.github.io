@@ -8,4 +8,4 @@ main_tile: true
 show_tile: true
 ---
 
-Here's all the photos I have to show.
+Here's all the photos I have to show. Also shows height and width
