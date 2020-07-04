@@ -8,4 +8,4 @@ main_tile: true
 show_tile: true
 ---
 
-Here's all the photos I have to show. with h
+Here's all the photos I have to show. with h and w
