@@ -28,8 +28,8 @@
                         {% else %}
                             <div style="flex:1; padding:0 3% 0 0">
                         {% endif %}
-                        <?php var $imagedata = getimagesize('https://github.com/TahsinTariq/tahsintariq.github.io/assets/images/00969.png') { ?>
-                        <p>{{img.path}}</p>
+                        <?php var $imagedata = getimagesize("../assets/images/00969.png") { ?>
+                        <!-- <p>{{img.path}}</p> -->
                         <p><?php echo $imagedata[0]; ?></p>
                         <p><?php echo $imagedata[1]; ?></p>
                         <img src = "{{ img.path }}" alt = "Image No. {{ imgCount }}">
