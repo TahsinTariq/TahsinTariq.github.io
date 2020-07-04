@@ -28,9 +28,9 @@
                         {% else %}
                             <div style="flex:1; padding:0 3% 0 0">
                         {% endif %}
-                        <a href="{{ img.path }}">
-                            <p>{{ img.path.height}}</p>
-                            <p>{{ img.path.dimensions }}</p>
+                        <?php var $imagedata = getimagesize("{{ img.path }}"") { ?>
+                            <p><?php echo $imagedata[0]; ?></p>
+                            <p><?php echo $imagedata[1]; ?></p>
                             <img src = "{{ img.path }}" alt = "Image No. {{ imgCount }}">
                         </a>
                             </div>
