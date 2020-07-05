@@ -11,5 +11,5 @@ main_tile: false
 
 A video on triangulation of different points on a 2D plane using HSB ColorSpace
 
-<iframe src="https://editor.p5js.org/TahsinTariq/embed/zeAlkZ5LK"></iframe>
+<iframe style="display: block; margin: auto;" width="100%" height="100%" src="https://editor.p5js.org/TahsinTariq/embed/zeAlkZ5LK" frameborder="0" ></iframe>
 
