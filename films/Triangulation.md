@@ -11,9 +11,9 @@ main_tile: false
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
   }
 </script>
-<iframe style="display: block; margin: auto;" width="100%" height="1080" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="overflow: hidden; height: 100%; width: 100%; position: absolute;" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A video on triangulation of different points on a 2D plane using HSB ColorSpace
+A video on triangulation of different points on a 2D plane using HSB ColorSpace and a P5js script
 
-<iframe style="display: block; margin: auto;" width="100%" height="100%" src="https://editor.p5js.org/TahsinTariq/embed/zeAlkZ5LK" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+<iframe style="overflow: hidden; height: 100%; width: 100%; position: absolute;" src="https://editor.p5js.org/TahsinTariq/embed/zeAlkZ5LK" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 
