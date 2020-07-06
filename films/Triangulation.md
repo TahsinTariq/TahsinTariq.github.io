@@ -14,7 +14,7 @@ main_tile: false
 <style>
 	*.adjustHeight{
 		height: calc(100vh);
-		width: 80%;
+		width: 100%;
 	}
 </style>
 <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
