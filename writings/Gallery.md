@@ -4,7 +4,7 @@ title: Gallery
 description: All the photos in this server
 image: assets/images
 nav-menu: true
-main_tile: true
+main_tile: false
 show_tile: true
 ---
 
