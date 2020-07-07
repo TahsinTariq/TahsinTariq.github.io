@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Triangulation Post
+title: A Study on Trianulation
 description: A test post to add image and link videos
-image: assets/images/00969.png
+image: assets/images/shaan_triangulated.jpg
 nav-menu: false
 main_tile: false
 ---
@@ -11,6 +11,8 @@ main_tile: false
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
   }
 </script>
+<p>Trianulation of a set of points is to make triangles in a way that none of those points are inside the individual triangles themselves. In Mathematics and Computational geometry, this is known as the Delunay Triangulation.</p>
+<p>I've tried various ways to use the triangulation algorithm in generating beautiful patterns.</p>
 <style>
 	*.adjustHeight{
 		height: calc(100vh);
@@ -18,10 +20,4 @@ main_tile: false
 	}
 </style>
 <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-A video on triangulation of different points on a 2D plane using HSB ColorSpace and a P5js
-
-<iframe class ="adjustHeight" src="https://editor.p5js.org/TahsinTariq/embed/zeAlkZ5LK" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-
-
 
