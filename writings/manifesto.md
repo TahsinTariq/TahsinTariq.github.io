@@ -2,7 +2,6 @@
 layout: post
 title: A Manifesto for Unrequited Love - from the Journals of a Sad Old Man
 description: A bitter old man's reflections on love, and lovelessness
-image: assets/images/manifesto.jpg
 nav-menu: false
 main_tile: false
 show_tile: false
