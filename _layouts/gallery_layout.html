@@ -18,7 +18,7 @@
 				</header>
                 {{ content }}
 
-                {% assign image_files = site.static_files | where: "imageFolder", true %}
+                {% assign image_files = site.static_files | where: "image", true %}
                 <div style="display:flex">
                     {% assign imgCount = 1 %}
                     {% for img in image_files %}
