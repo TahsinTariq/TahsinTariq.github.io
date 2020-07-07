@@ -7,11 +7,11 @@ show_tile: false
 ---
 
 <!-- Main -->
-<div id="main">
+<!-- <div id="main"> -->
 
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<!-- <section id="two" class="spotlights">
 	<section>
 		<a href="films/stars.html" class="image">
 			<img src="http://i1.ytimg.com/vi/anizFf_niiA/default.jpg" alt="" data-position="center center" />
@@ -63,4 +63,4 @@ show_tile: false
 </section>
 
 
-</div>
+</div> -->

@@ -7,10 +7,10 @@ show_tile: false
 ---
 
 <!-- Main -->
-<div id="main">
+<!-- <div id="main"> -->
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<!-- <section id="two" class="spotlights">
 	<section>
 		<a href="writings/elephant.html" class="image">
 			<img src="{% link assets/images/elephant.jpg %}" alt="" data-position="center center" />
@@ -79,3 +79,4 @@ show_tile: false
 
 
 </div>
+ -->
