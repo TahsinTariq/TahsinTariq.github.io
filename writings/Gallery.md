@@ -2,7 +2,7 @@
 layout: gallery_layout
 title: Gallery
 description: All the photos in this server
-image: assets/images/wall-e.jpg
+image: assets/alternate_images/sun.png
 nav-menu: true
 main_tile: false
 show_tile: true
