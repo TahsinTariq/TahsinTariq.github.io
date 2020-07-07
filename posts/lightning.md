@@ -1,25 +1,12 @@
 ---
 layout: post
-title: The Person inside the Lightning
+title: Hollow Knight
+description: The best indie metroidvania over the last decade
+image: assets/images/HK_Sisters_of_Battle_01.png
+nav-menu: false
+main_tile: false
 ---
 
-Await the next shock
-Reigning over endless vicious skies
-Waking the unknown for seconds
-As it drifts silently and falls
-In a gracious thud
-To a broken, worn ground
-Like a person the lightening drifts across the sky in pieces
-Thinking that darkness
-Is easier to conquer with its fleeting light
-Similarly to a person too
-It believes in assured thought
-That it will split clouds into lasting stars
-And it will be a moon, almost too bright to say it was
-As people will think
-And so it spends its light in gushes
-That fall like pebbles to a forgiving earth
-And it spends everything until it is an unoccupied fantasy
-That rattles around clouds
-And like a person it rattles 
-Until it realises it was already on earth
+<p>Hollow Knight is a 2D Metroidvania action-adventure game, which takes place in Hallownest, a fictional ancient kingdom. The player controls an insect-like, silent, and nameless knight while exploring the underground world. The knight wields a nail, which is a cone-shaped sword, used both in combat and environmental interaction.</p>
+
+<img src="assets/images/HK_Hornet_02.png">
