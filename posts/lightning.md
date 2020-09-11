@@ -14,3 +14,4 @@ main_tile: false
 <a href="assets/images/HK_Hornet_02.png" class="image">
 	<img src="{% link assets/images/HK_Hornet_02.png %}" alt="Hornet" data-position="center center" />
 </a>
+<img src="{% link assets/images/HK_Hornet_02.png %}" alt="Hornet" data-position="center center" />
