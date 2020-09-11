@@ -8,4 +8,3 @@ main_tile: false
 ---
 
 <h2>Doesn't contain anything important. will change this later</h2>
-thought for later: nav-menu = true adds it inside the nav-menu? what does main_tile do?
