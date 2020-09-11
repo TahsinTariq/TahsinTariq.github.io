@@ -18,12 +18,31 @@ main_tile: false
 		height: calc(100vh);
 		width: 100%;
 	}
-	*.videoWrapper {
+	/* *.videoWrapper {
   		padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+	} */
+}
+</style>
+<style>
+	*.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+	}
+	*.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 }
 </style>
 <!-- <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<div class="videoWrapper">
+  <!-- Copy & Pasted from YouTube -->
+  <iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
 <iframe src="https://www.youtube.com/embed/fY4qkfjJo6A" alt="" data-position="center center" /></iframe>
