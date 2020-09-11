@@ -38,9 +38,8 @@ main_tile: false
 	}
 }
 </style>
-<!-- <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
 <div class="videoWrapper">
-  <!-- Copy & Pasted from YouTube -->
   <iframe width="560" height="315" src="https://www.youtube.com/embed/r9JzMWXTGwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

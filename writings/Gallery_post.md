@@ -1,7 +1,7 @@
 ---
 layout: gallery_layout
 title: Gallery
-description: All the photos in this server
+description: Collection of all the photos in this website
 image: assets/alternate_images/sun.png
 nav-menu: true
 main_tile: false

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: About Me
-description: TBD
 nav-menu: true
 main_tile: true
 show_tile: false
