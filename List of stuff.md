@@ -2,7 +2,6 @@
 title: Films
 layout: landing
 description: 'A few short films'
-image: assets/images/film.png
 show_tile: false
 ---
 
