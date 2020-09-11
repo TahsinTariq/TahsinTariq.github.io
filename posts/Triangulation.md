@@ -18,7 +18,13 @@ main_tile: false
 		width: calc(100vh);
 		height: auto;
 	}
+	*.videoWrapper {
+  		padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+	}
+}
 </style>
 <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
 <iframe src="https://www.youtube.com/embed/fY4qkfjJo6A" alt="" data-position="center center" /></iframe>
+</div>
