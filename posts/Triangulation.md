@@ -20,3 +20,5 @@ main_tile: false
 	}
 </style>
 <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/fY4qkfjJo6A" alt="" data-position="center center" /></iframe>
