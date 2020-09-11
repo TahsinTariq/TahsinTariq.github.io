@@ -15,8 +15,8 @@ main_tile: false
 <p>I've tried various ways to use the triangulation algorithm in generating beautiful patterns.</p>
 <style>
 	*.adjustHeight{
-		height: calc(100vh);
-		width: 100%;
+		width: calc(100vh);
+		height: auto;
 	}
 </style>
 <iframe class ="adjustHeight" src="https://www.youtube.com/embed/fY4qkfjJo6A" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
