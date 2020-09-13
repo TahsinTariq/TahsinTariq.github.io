@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Study on Triangulation
-description: A test post to add image and link videos
+description: Posting this to test if I can embed images and videos
 image: assets/images/shaan_triangulated.jpg
 nav-menu: false
 main_tile: false
