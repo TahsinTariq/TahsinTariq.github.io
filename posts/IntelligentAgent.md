@@ -3,7 +3,7 @@ layout: post
 title: My preference of Intelligent agents
 description: Posting my assignment here instead of going through the trouble of making a PDF
 # image: assets/images/HK_Sisters_of_Battle_01.png
-nav-menu: false
+nav-menu: true
 main_tile: false
 show_tile: false
 ---
