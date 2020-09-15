@@ -20,12 +20,22 @@ As stated earlier, there are 5 types of agents.
 
 ## Preferred agent:
 Among these 5, I prefer the learning agent due to it's generaliaztion of the other 4 agents. To explain why, we first need to look at how the learning agent works.
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 <figure>
-    <img 
-        style="display: block;margin-left: auto;margin-right: auto;width=10%;" 
-        src="{% link assets/images/LearningDiagram1.png %}" 
-        alt="Learning Agent"
-    >
+    <div style="display:block;" data-position="center center">
+        <img 
+            style="display: block;margin-left: auto;margin-right: auto;width=10%;" 
+            src="{% link assets/images/LearningDiagram1.png %}" 
+            alt="Learning Agent"
+            style="width=10%"
+        >
+    </div>
     <figcaption align="center">Fig.1 - A general learning agent.</figcaption>
 </figure>
 
