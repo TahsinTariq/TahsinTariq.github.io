@@ -28,12 +28,11 @@ img {
 }
 </style>
 <figure>
-    <div style="display:block;" data-position="center center">
+    <div style="display:flex">
         <img 
             style="display: block;margin-left: auto;margin-right: auto;width=10%;" 
             src="{% link assets/images/LearningDiagram1.png %}" 
             alt="Learning Agent"
-            style="width=10%"
         >
     </div>
     <figcaption align="center">Fig.1 - A general learning agent.</figcaption>
