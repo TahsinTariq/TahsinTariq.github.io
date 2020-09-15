@@ -9,8 +9,28 @@ main_tile: false
 
 <!-- ### Doesn't contain anything important. Need to update this post soon. -->
 There should be a sketch running here
+<style>
+	*.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+	}
+	*.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+</style>
 <style> iframe{ border: none; } </style>
-<iframe src="https://tahsintariq.github.io/p5js/P5_Sketches/P5_Web_Collection/VoronoiGeneration/index.html" height="600" width="400"></iframe>
+<div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
+    <iframe 
+        src="https://tahsintariq.github.io/p5js/P5_Sketches/P5_Web_Collection/VoronoiGeneration/index.html"
+        data-position="center center">
+    </iframe>
+</div>
 <!-- <img src="{% link assets/images/14_25_59_693029.png %}" alt="Voronoi 1" data-position="center center" /> -->
 
 <!-- <img src="{% link assets/images/14_30_4_938370.png %}" alt="Voronoi 2" data-position="center center" /> -->
