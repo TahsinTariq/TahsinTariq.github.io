@@ -37,3 +37,6 @@ defaults:
       image: true
 sass:
   style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
