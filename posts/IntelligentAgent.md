@@ -38,6 +38,9 @@ img {
         <img src = "{% link assets/images/LearningDiagram3.png %}" alt = "Image No.2">
     </div>
     </div>
+    <div>
+    <p></p>
+    </div>
     <div style="display:flex">
     <div style="flex:1;padding:0 1% 0 0">    
         <img src = "{% link assets/images/LearningDiagram4.png %}" alt = "Image No.3">
@@ -46,7 +49,7 @@ img {
         <img src = "{% link assets/images/LearningDiagram5.png %}" alt = "Image No.4">
     </div>
 </div>
-<figcaption align="center">Fig.2 - Simple reflex, model, goal and utility based agents.</figcaption>
+<figcaption align="center"><i>Fig.2 - Simple reflex, model, goal and utility based agents.</i></figcaption>
 </figure>
 
 <div style="text-align: justify">
@@ -55,6 +58,9 @@ Here it can be seen that the performance of the simple reflex agent is largely d
 
 <div style="text-align: justify">
 In order to solve this problem, the model, goal and utility based agents have been developed. They are provided with, as their names suggest, model, goal and utility. When a model is provided, the agent has the ability to sustain a percept history which helps it understand how the environment functions around it. And yet, it cannot make a guess on how to act accordingly in all possible scenario. To build on top of this, the agent is further given a goal. This helps it avoid undesirable situations and steer towards better results. but this too has it's flaws as the results achieved might not always be the optimal result. Thus the agent is provided with utility. This ensures that the results provided by the agent is optimal. But here we face another problem. and that is a way to find the utility-maximizing course of action. Perfect rationality is often very difficult if not unachievable in a real world environment due to it's unpredictability and the limitions with computational complexity.
+</div>
+<div>
+<p></p>
 </div>
 
 <figure>
