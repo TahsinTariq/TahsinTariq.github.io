@@ -49,9 +49,12 @@ img {
         <img src = "{% link assets/images/LearningDiagram5.png %}" alt = "Image No.4">
     </div>
 </div>
-<figcaption align="center"><i>Fig.2 - Simple reflex, model, goal and utility based agents.</i></figcaption>
+<figcaption align="center"><i>Fig.1 - Simple reflex, model, goal and utility based agents.</i></figcaption>
 </figure>
 
+<div>
+<p></p>
+</div>
 <div style="text-align: justify">
 Here it can be seen that the performance of the simple reflex agent is largely dependent on the condition-action rules that are predefined. It has no sense of history and the consequences of it's actions. The downside to this is that the agent, while can perform well in an extremely consatrained (i.e fully observable) environment, will fail to do so in partially observable conditions.
 </div>
@@ -75,7 +78,7 @@ In order to solve this problem, the model, goal and utility based agents have be
             </div>
         </div>
     </div>
-    <figcaption align="center">Fig.1 - A general learning agent.</figcaption>
+    <figcaption align="center"><i>Fig.2 - A general learning agent.</i></figcaption>
 </figure>
 
 
