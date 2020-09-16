@@ -62,6 +62,7 @@ Here it can be seen that the performance of the simple reflex agent is largely d
 <div style="text-align: justify">
 In order to solve this problem, the model, goal and utility based agents have been developed. They are provided with, as their names suggest, model, goal and utility. When a model is provided, the agent has the ability to sustain a percept history which helps it understand how the environment functions around it. And yet, it cannot make a guess on how to act accordingly in all possible scenario. To build on top of this, the agent is further given a goal. This helps it avoid undesirable situations and steer towards better results. but this too has it's flaws as the results achieved might not always be the optimal result. Thus the agent is provided with utility. This ensures that the results provided by the agent is optimal. But here we face another problem. and that is a way to find the utility-maximizing course of action. Perfect rationality is often very difficult if not unachievable in a real world environment due to it's unpredictability and the limitions with computational complexity.
 </div>
+So, now lets look what the learning agent has to offer.
 <div>
 <p></p>
 </div>
@@ -81,5 +82,17 @@ In order to solve this problem, the model, goal and utility based agents have be
     <figcaption align="center"><i>Fig.2 - A general learning agent.</i></figcaption>
 </figure>
 
+<div>
+<p></p>
+</div>
 
+## Why is it prefered over the others:
 
+<div style="text-align: justify">
+Learning agents can operate in initially unknown conditions and improve over time. This can be attributed to the four basic components as seen in fig.2
+</div>
+
+* <b>Critic </b>: This tells the agent whether it's current course of action is leading to an optimal outcome or not. So, it find the difference between the optimal actions and help modify the percept model with respect to achieving it's goals so that the learning agent can update itself.
+* <b>Learning element </b>: The learning element takes the feedback from the critic and determines how the performance element should evaluate to some action in an environment. It in a way, acts like the condition-action rules as seen in a simple reflex agent where the rules for conditions and actions are updated from the critic.
+* <b>Performance element </b>: This is responsible for selecting the actions. I think of it as equivalent to the utility function because it's job is to choose the optimal out of all possible solutions.
+* <b>Problem Generator </b>: This is a bit different from the rest of the agents as it 
