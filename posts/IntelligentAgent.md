@@ -29,8 +29,8 @@ img {
 </style>
 <figure>
     <div style="display:flex">
-        <div style="flex:1">
-            <div style="flex:1; padding:0 3% 0 0">
+        <div style="flex:1;">
+            <div style="flex:1; padding:0 3% 0 0;">
                 <img 
                     style="display: block;margin-left: auto;margin-right: auto;width=10%;" 
                     src="{% link assets/images/LearningDiagram1.png %}" 
@@ -41,8 +41,24 @@ img {
     </div>
     <figcaption align="center">Fig.1 - A general learning agent.</figcaption>
 </figure>
-
-
+<figure>
+<div style="display:flex">
+    <div style="flex:1;padding:0 1% 0 0">    
+        <img src = "{% link assets/images/LearningDiagram1.png %}" alt = "Image No.1">
+    </div>
+    <div style="flex:1; padding:0 1% 0 0">
+        <img src = "{% link assets/images/LearningDiagram1.png %}" alt = "Image No.2">
+    </div>
+    <!-- <div style="flex:1"> -->
+    <div style="flex:1;padding:0 1% 0 0">    
+        <img src = "{% link assets/images/LearningDiagram1.png %}" alt = "Image No.3">
+    </div>
+    <div style="flex:1; padding:0 1% 0 0">
+        <img src = "{% link assets/images/LearningDiagram1.png %}" alt = "Image No.4">
+    </div>
+</div>
+<figcaption align="center">Fig.2 - All reflex agents agent.</figcaption>
+</figure>
 
 
 
