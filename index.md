@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-landing-title: 'Generative Artist and soon to be Engineer'
-description: null
+landing-title: 'Hey! I'm Tahsin'
+description: 'Welcome to my site'
 image: null
 author: null
 nav-menu: true

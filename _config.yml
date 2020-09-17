@@ -1,8 +1,8 @@
 # site settings
-title: Still in development
-subtitle: By Tahsin Tariq
+title: Tahsin Tariq
+subtitle: .github.io
 email: tahsinbanna@gmail.com
-description: A comprehensive list of all my shenanigans
+description: This is a comprehensive list of all my shenanigans
 baseurl: "" # the subpath of your site, e.g. /blog
 url: 
 author: Tahsin Tariq
