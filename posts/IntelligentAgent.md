@@ -5,7 +5,7 @@ description: Posting my assignment here instead of going through the trouble of 
 # image: assets/images/HK_Sisters_of_Battle_01.png
 nav-menu: false
 main_tile: true
-show_tile: false
+show_tile: true
 ---
 In our final class of Introduction to AI, we were asked to write about which agent type we liked or preferred most out of the five mentioned by [Russell & Norvig](https://en.wikipedia.org/wiki/Intelligent_agent#CITEREFRussellNorvig2003) in their book. Here I discuss about it.
 
@@ -100,6 +100,5 @@ Learning agents can operate in initially unknown conditions and improve over tim
 * <b>Performance element </b>: This is responsible for selecting the actions. I think of it as equivalent to the utility function because it's job is to choose the optimal out of all possible solutions. But it can also be thought of as the percept of reward or penalty for a certain set of actions.
 * <b>Problem Generator </b>: This is a bit different from the rest of the agents as it introduces a new concept. The problem generator creates some variations in the choices and suggests experiments by identifying possible improvements. These new experiences help the agent discover better actions.
 
+Looking at the properties of the learning agent, it's easy to see how it encapsulates the other four agents and even expands upon them to perform better.
 </div>
-
-Looking at the behavior 
