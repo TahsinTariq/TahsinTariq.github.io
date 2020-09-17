@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Intelligent Agents
-description: Posting my assignment here instead of going through the trouble of making a PDF
+description: My preferred intelligent agent
 # image: assets/images/HK_Sisters_of_Battle_01.png
 nav-menu: false
-main_tile: true
+main_tile: false
 show_tile: true
 ---
 In our final class of Introduction to AI, we were asked to write about which agent type we liked or preferred most out of the five mentioned by [Russell & Norvig](https://en.wikipedia.org/wiki/Intelligent_agent#CITEREFRussellNorvig2003) in their book. Here I discuss about it.
