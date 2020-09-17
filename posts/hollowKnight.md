@@ -7,7 +7,7 @@ nav-menu: false
 main_tile: false
 ---
 
-<p>Hollow Knight is a 2D Metroidvania action-adventure game, which takes place in Hallownest, a fictional ancient kingdom. The player controls an insect-like, silent, and nameless knight while exploring the underground world. The knight wields a nail, which is a cone-shaped sword, used both in combat and environmental interaction.</p>
+<p>Hollow Knight is a 2D Metroidvania action-adventure game, which takes place in Hollownest, a fictional ancient kingdom. The player controls an insect-like, silent, and nameless knight while exploring the underground world. The knight wields a nail, which is a cone-shaped sword, used both in combat and environmental interaction.</p>
 
 <!-- 
 	the commented code adds link to the image
