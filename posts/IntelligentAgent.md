@@ -99,6 +99,7 @@ Learning agents can operate in initially unknown conditions and improve over tim
 * <b>Learning element </b>: The learning element takes the feedback from the critic and determines how the performance element should evaluate to some action in an environment. It in a way, acts like the condition-action rules as seen in a simple reflex agent where the rules for conditions and actions are updated from the critic.
 * <b>Performance element </b>: This is responsible for selecting the actions. I think of it as equivalent to the utility function because it's job is to choose the optimal out of all possible solutions. But it can also be thought of as the percept of reward or penalty for a certain set of actions.
 * <b>Problem Generator </b>: This is a bit different from the rest of the agents as it introduces a new concept. The problem generator creates some variations in the choices and suggests experiments by identifying possible improvements. These new experiences help the agent discover better actions.
-
+<p>
 Looking at the properties of the learning agent, it's easy to see how it encapsulates the other four agents and even expands upon them to perform better.
+</p>
 </div>
