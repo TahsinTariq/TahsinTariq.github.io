@@ -32,10 +32,10 @@ img {
 <figure>
 <div style="display:flex">
     <div style="flex:1;padding:0 1% 0 0">    
-        <img src = "{% link assets/images/LearningDiagram2.png %}" alt = "Image No.1">
+        <img src = "{% link assets/alternate_images/LearningDiagram2.png %}" alt = "Image No.1">
     </div>
     <div style="flex:1; padding:0 1% 0 0">
-        <img src = "{% link assets/images/LearningDiagram3.png %}" alt = "Image No.2">
+        <img src = "{% link assets/alternate_images/LearningDiagram3.png %}" alt = "Image No.2">
     </div>
     </div>
     <div>
@@ -43,10 +43,10 @@ img {
     </div>
     <div style="display:flex">
     <div style="flex:1;padding:0 1% 0 0">    
-        <img src = "{% link assets/images/LearningDiagram4.png %}" alt = "Image No.3">
+        <img src = "{% link assets/alternate_images/LearningDiagram4.png %}" alt = "Image No.3">
     </div>
     <div style="flex:1; padding:0 1% 0 0">
-        <img src = "{% link assets/images/LearningDiagram5.png %}" alt = "Image No.4">
+        <img src = "{% link assets/alternate_images/LearningDiagram5.png %}" alt = "Image No.4">
     </div>
 </div>
 <figcaption align="center"><i>Fig.1 - Simple reflex, model, goal and utility based agents.</i></figcaption>
