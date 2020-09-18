@@ -92,7 +92,7 @@ So, now lets look what the learning agent has to offer.
 
 ## Why I prefer it to others:
 
-<div style="text-align: justify">
+
 Learning agents can operate in initially unknown conditions and improve over time. This can be attributed to the four basic components as seen in fig.2
 
 * <b>Critic </b>: This tells the agent whether it's current course of action is leading to an optimal outcome or not. So, it find the difference between the optimal actions and help modify the percept model with respect to achieving it's goals so that the learning agent can update itself.
@@ -105,4 +105,4 @@ Learning agents can operate in initially unknown conditions and improve over tim
 <p>
 Looking at the properties of the learning agent, it's easy to see how it encapsulates the other four agents and even expands upon them to perform better.
 </p>
-</div>
+
