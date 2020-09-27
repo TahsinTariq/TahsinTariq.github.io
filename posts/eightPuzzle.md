@@ -7,8 +7,9 @@ main_tile: false
 show_tile: true
 ---
 
-## This is a JavaScript implementation of the 8-puzzle game.
-## Use the following keys to control the blank tile  
+This is a JavaScript implementation of the 8-puzzle game.
+
+Use the following keys to control the blank tile  
 <div style="display:flex">
     <div style="flex:1;padding:0 1% 0 0">
         <h1>
@@ -48,7 +49,7 @@ show_tile: true
 }
 </style>
 <style> iframe{ border: none; } </style>
-<div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
+<div class="videoWrapper" style="--aspect-ratio: 2 / 4;">
     <iframe 
         src="https://tahsintariq.github.io/p5js/P5_Sketches/P5_Web_Collection/EightPuzzle"
         data-position="center center">
