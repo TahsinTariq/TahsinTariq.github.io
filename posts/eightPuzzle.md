@@ -7,9 +7,14 @@ main_tile: false
 show_tile: true
 ---
 
-This is a JavaScript implementation of the 8-puzzle game.
+## This is a JavaScript implementation of the 8-puzzle game.
+### Features:
+* Uses the A* algorithm to find the shortest way to solve the puzzle
+* You can choose any image to show in the tiles. It will replace the numbers though.
+* The blank tile can also be controlled using hand gestures. It was trained using supervised learning on a set of over 5000 photos.
 
-Use the following keys to control the blank tile  
+
+Use the following keys to control the blank tile:  
 <div style="display:flex">
     <div style="flex:1;padding:0 1% 0 0">
         <h1>
@@ -18,6 +23,16 @@ Use the following keys to control the blank tile
             </div>
             <div ALIGN=Center>
                 ←  ↓  →
+            </div>
+        </h1>
+    </div>
+    <div style="flex:1;padding:0 1% 0 0">
+        <h1>
+            <div ALIGN=Center>
+                ✋
+            </div>
+            <div ALIGN=Center>
+                👈 👇 👉
             </div>
         </h1>
     </div>
