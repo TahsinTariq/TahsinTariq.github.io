@@ -25,6 +25,11 @@ show_tile: true
                 ←  ↓  →
             </div>
         </h1>
+        <h3>
+            <div ALIGN=Center>
+                Arrow keys
+            </div>
+        </h3>
     </div>
     <div style="flex:1;padding:0 1% 0 0">
         <h1>
@@ -35,6 +40,11 @@ show_tile: true
                 👈 👇 👉
             </div>
         </h1>
+        <h3>
+            <div ALIGN=Center>
+                Hand Gestures (using camera)
+            </div>
+        </h3>
     </div>
     <div style="flex:1;padding:0 1% 0 0">
         <h1>
@@ -45,6 +55,11 @@ show_tile: true
                 A  S  D
             </div>
         </h1>
+        <h3>
+            <div ALIGN=Center>
+                Keyboard keys
+            </div>
+        </h3>
     </div>
 </div>
 
