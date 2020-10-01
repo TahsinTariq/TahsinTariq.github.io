@@ -74,5 +74,11 @@ show_tile: true
 </p>
 
 [Take a look at the code for A* path finding here](https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd). It might be a bit messy.
-
+<style>
+    .gist{font-size:13px;line-height:18px;width:53em}
+    .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+    .gist-meta{font-family:Arial,sans-serif;font-size:13px !important}
+    .gist-meta a{color:#3b5998 !important;font-weight:bold;text-decoration:none}
+    .gist-meta a:hover{text-decoration:underline}
+</style>
 <script src="https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd.js"></script>
