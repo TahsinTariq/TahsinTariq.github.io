@@ -73,13 +73,13 @@ show_tile: true
 <p>
 </p>
 
-[Take a look at the code for A* path finding here](https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd). It might be a bit messy.
+Here's a look at the code for the A* path finding algorithm that solve the puzzle
 <style>
     @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   .gist-file
-  .gist-data {max-height: 320px; max-width: auto;}
-  .gistContainer {width: 90%; margin: 0 auto;}
+  .gist-data {max-height: 800px; max-width: auto;}
+  .gistContainer {width: 75%; margin: 0 auto;}
 </style>
 <div class = "gistContainer">
 <script src="https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd.js"></script>
