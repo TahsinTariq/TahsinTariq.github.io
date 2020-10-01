@@ -75,3 +75,4 @@ show_tile: true
 
 [Take a look at the code for A* path finding here](https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd). It might be a bit messy.
 
+<script src="https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd.js"></script>
