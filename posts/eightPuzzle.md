@@ -73,12 +73,12 @@ show_tile: true
 <p>
 </p>
 
-Here's a the code for A* path finding algorithm that solves the puzzle:
+Here's the code for A* path finding algorithm that solves the puzzle:
 <style>
     @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   .gist-file
-  .gist-data {max-height: 800px; max-width: auto;}
+  .gist-data {max-height: 700px; max-width: auto;}
   .gistContainer {width: 75%; margin: 0 auto;}
 </style>
 <div class = "gistContainer">
