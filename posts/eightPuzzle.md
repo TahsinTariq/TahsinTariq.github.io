@@ -75,7 +75,7 @@ show_tile: true
 
 [Take a look at the code for A* path finding here](https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd). It might be a bit messy.
 <style>
-    .gist{font-size:13px;line-height:18px;height:100}
-    .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important;padding: 20px;color: #ffffff;background: #434343;}
+    @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 </style>
 <script src="https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd.js"></script>
