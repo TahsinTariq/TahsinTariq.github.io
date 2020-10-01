@@ -73,7 +73,7 @@ show_tile: true
 <p>
 </p>
 
-Here's a look at the code for the A* path finding algorithm that solve the puzzle
+Here's a the code for A* path finding algorithm that solves the puzzle:
 <style>
     @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
