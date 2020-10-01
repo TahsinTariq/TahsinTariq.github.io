@@ -76,9 +76,23 @@ show_tile: true
 [Take a look at the code for A* path finding here](https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd). It might be a bit messy.
 <style>
     .gist{font-size:13px;line-height:18px;width:53em}
-    .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+    .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important;padding: 20px;color: #ffffff;background: #434343;}
     .gist-meta{font-family:Arial,sans-serif;font-size:13px !important}
     .gist-meta a{color:#3b5998 !important;font-weight:bold;text-decoration:none}
     .gist-meta a:hover{text-decoration:underline}
+    .gist .line-data, .gist.file-data, .gist.line-numbers {
+  color: #ffffff;
+  background: #434343; }
+ .gist .gist-meta {
+  color: #ffffff;
+  background: #000000; }
+ .gist.pl-vo, .gist.pl-v,  .gist.pl-vpf {
+  color: #ffffff; }
+ .gist.pl-en, .gist.pl-c1, .gist.pl-s3 {
+  color: #ECAC29; }
+ .gist.pl-k, .gist.pl-st {
+  color: #7373F2; }
+ .gist.pl-s1, .gist.pl-pds {
+  color: #76A22F; }
 </style>
 <script src="https://gist.github.com/TahsinTariq/5c4ba6b74dd1279f6d4bcfea6a3cbefd.js"></script>
