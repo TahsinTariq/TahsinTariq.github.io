@@ -2,7 +2,7 @@
 layout: post
 title: Voronoi Diagrams
 description: Procedurally generated space filling diagrams
-# image: assets/images/14_17_33_186871.png
+image: assets/images/14_17_33_186871.png
 nav-menu: false
 main_tile: false
 ---
