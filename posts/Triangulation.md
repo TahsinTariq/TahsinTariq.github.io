@@ -66,6 +66,7 @@ Two conclusions can be drawn from these definitions:
 ### [You can find some code and a bit more explanation here](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb)
 
 
+Here's a different render I made using triangulation. For this, the points were sampled from an image using a color threshold.
 <!-- <div style="display:flex"> -->
 <div style="width: 75%; margin: 0 auto;">
 	<img src = "{% link assets/images/shaan_triangulated.jpg %}" alt = "Triangulated Image 1">
