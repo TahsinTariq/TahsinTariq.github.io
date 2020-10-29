@@ -8,7 +8,7 @@ main_tile: false
 ---
 ## My implementation:
 <p>
-	Here I've used <a src="https://en.wikipedia.org/wiki/Supersampling#Poisson_disc">poission disc sampling</a> to get an even distribution of points and then triangulated them.
+	Here I've used <a src="https://en.wikipedia.org/wiki/Supersampling#Poisson_disc">poisson disc sampling</a> to get an even distribution of points and then triangulated them.
 </p>
 <p>I've tried various methods to speed up the algorithm. Although some algorithms are easy to understand and implement, they may not be as efficient. So, in order to get quick results, I used the <a src="https://mapbox.github.io/delaunator/">Delunator library</a> which I do not understand at all. But hey, it gets the job done faster. </p>
 
