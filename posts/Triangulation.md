@@ -63,8 +63,11 @@ Two conclusions can be drawn from these definitions:
 	<li> For the Delaunay triangulation to be unique, it is necessary that no 4 points from the set  <b>S</b>  lie on the same circumcircle.</li>
 </ul>
 
-### [You can find some code and a bit more explanation here](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb)
+### [You can find some python code and a bit more explanation here](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb)
+### [And the code I used to make this in JavaScript](https://github.com/TahsinTariq/p5js/tree/master/P5_Sketches/P5_Web_Collection/Delunay_triangulation)
 
+<p>
+</p>
 
 Here's a different render I made using triangulation. For this, the points were sampled from an image using a color threshold.
 <!-- <div style="display:flex"> -->
