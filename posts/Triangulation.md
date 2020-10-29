@@ -12,6 +12,10 @@ main_tile: false
 </p>
 <p>I've tried various methods to speed up the algorithm. Although some algorithms are easy to understand and implement, they may not be as efficient. So, in order to get quick results, I used the <a src="https://mapbox.github.io/delaunator/">Delunator library</a> which I do not understand at all. But hey, it gets the job done faster. </p>
 
+<p>
+	Click on the render to get a new set of points
+</p>
+
 <!-- <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/r9JzMWXTGwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -59,6 +63,14 @@ Two conclusions can be drawn from these definitions:
 	<li> For the Delaunay triangulation to be unique, it is necessary that no 4 points from the set  <b>S</b>  lie on the same circumcircle.</li>
 </ul>
 
+### [You can find some code and a bit more explanation here](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb)
+
+
+<!-- <div style="display:flex"> -->
+<div style="width: 75%; margin: 0 auto;">
+	<img src = "{% link assets/images/shaan_triangulated.jpg %}" alt = "Triangulated Image 1">
+</div>
+<!-- </div> -->
 <!-- <div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
 <iframe src="https://www.youtube.com/embed/fY4qkfjJo6A" alt="" data-position="center center" /></iframe>
 </div> -->
