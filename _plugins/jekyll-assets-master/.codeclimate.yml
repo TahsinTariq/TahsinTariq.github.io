@@ -1,8 +1,0 @@
-version: "2"
-plugins:
-  rubocop:
-    enabled: false
-ratings:
-  paths:
-  - "spec/tests/**.rb"
-  - "lib/**.rb"

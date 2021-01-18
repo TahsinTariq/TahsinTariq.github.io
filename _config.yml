@@ -14,9 +14,11 @@ country: Bangladesh
 phone: +8801521443393
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 10
 
+# port: 4040
+livereload: true
 
 # social settings
 500px_url:

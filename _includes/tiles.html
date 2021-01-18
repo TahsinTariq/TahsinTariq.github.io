@@ -3,6 +3,23 @@
 {% elsif 'pages' == site.tiles-source %}
 {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
+<!-- {% assign tiles = site.posts | where_exp: "categories","categories == Game" %} -->
+
+<!-- {% for p in site.tags.write %}
+{{p.title}}
+{% endfor %}
+
+{% for p in site.categories.write %}
+{{p.title}}
+{% endfor %} -->
+
+<!-- {% for p in site.posts %}
+{{p.title}}
+{% endfor %} -->
+
+
+<a href="/Menu/Voronoi.html">{{post.title}}</a>
+{% assign tiles = site.tags.home %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
   <article>
