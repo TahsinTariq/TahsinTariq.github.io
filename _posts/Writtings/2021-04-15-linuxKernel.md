@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Accidentally deleting the linux kernel
-description: Happened to me
+description: What I did to fix it
 image: assets/alternate_images/angryKernel.png
 nav-menu: false
 main_tile: false
 show_tile: true
 date: 2020-04-15
 permalink: kernel
-categories: Game Review AI
+categories: Linux Kernel
 tags: write
 ---
 
