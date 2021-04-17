@@ -21,6 +21,8 @@ In order to render the terrain, we need some geometry. We can generate tile the 
 <div class="grid">
 	<img  src="{% link assets/alternate_images/random.png %}" alt="random points" data-position="center center" />
 </div>
+<p>
+</p>
 
 So, instead we use a different sort of random point generation called **[`Poisson Disc Sampling`](https://en.wikipedia.org/wiki/Supersampling#Poisson_disk)**. This generates random points at a given interval and thus making them more uniform.
 
@@ -33,28 +35,60 @@ Now if we triangulate the points,We should get a plane with enough geometry to o
     </iframe>
 </div>
 
+<p>
+</p>
+
 Now we rotate the canvas on the y-axis so it looks more like a plane.
 
 <div class="grid">
 	<div style="width: 80%;margin:auto;">
-		<img  src="{% link assets/images/random_plane.png %}" alt="random points" data-position="center center" />
+		<img  src="{% link assets/images/random_plane.png %}" alt="plane" data-position="center center" />
 	</div>
 </div>
+
+<p>
+</p>
 
 Now, using the generated height map, we offset the z-position of the points by the value corresponding to that x and y position in the height map. This gives us a stylized terrain.
 
 <div class="grid">
 	<div style="width: 80%;margin:auto;">
-		<img  src="{% link assets/images/terrain.png %}" alt="random points" data-position="center center" />
+		<img  src="{% link assets/images/terrain.png %}" alt="terrain" data-position="center center" />
 	</div>
 </div>
 
+<p>
+</p>
+
 We can change the shape of this terrain by changing the noise using offsets. This can result in traversing through the terrain as if we were flying on top of it, or changing the entire topology of the terrain. It will depend on how the noise is being offset.
 
-I've put the processing.py codes for this project [`here`](https://github.com/TahsinTariq/Processing/tree/master/Pycessing/Perlin/Terrain_generation)
+I've put the processing.py codes for this project [`here`](https://github.com/TahsinTariq/Processing/tree/master/Pycessing/Perlin/Terrain_generation).
 
-Below are two different renders I've made using the same process. One with a half inverted color and the other colored according to the height of the points i.e. a topological height map.
+The generated surface is still pretty low resolution and looks pointy. This can be solved in two ways. First, we can either increase the number of points from the poisson disk sampling process. The other method is using the [`Catmull-Clark algorithm`](https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface). This is a technique used in 3D computer graphics to represent curved surfaces by the specification of a coarser polygonal mesh and produced by a recursive algorithmic method.
 
+Furthermore, the same process can be used to generate terrain in 3D modelling  software. The Catmull-Clark algorithm can be used easily here as most software have built in support. The following demonstrates the improvements made while using the algorithm.
+
+<div style="display:flex">
+    <div style="flex:1;padding:0 1% 0 0">
+       <img  src="{% link assets/alternate_images/terrain_blend_1.png %}" alt="coarse" data-position="center center" />
+    </div>
+    <div style="flex:1;padding:0 1% 0 0">
+       <img  src="{% link assets/alternate_images/terrain_blend_2.png %}" alt="subdivided" data-position="center center" />
+    </div>
+</div>
+<article class="grid" style="text-align: center;">
+The left image shows a coarse pointy surface, the right image shows a smooth, curved, subdivided surface 
+and below is an animated terrain made in Blender 3D
+</article>
+
+<video controls loop autoplay>
+  <source src="{% link assets/alternate_images/terrain_vid.mp4 %}">
+</video> 
+<p>
+</p>
+<p>
+Below are two different renders I've made using the processing.py. One with a half inverted render and the other colored according to the height of the points i.e. a topological height map.
+</p>
 
 <style>
 	*.videoWrapper {
@@ -63,7 +97,13 @@ Below are two different renders I've made using the same process. One with a hal
 		padding-bottom: 56.25%; /* 16:9 */
 		height: 0;
 	}
-	*.videoWrapper iframe {
+	video{
+		display:grid;
+		margin: auto;
+		width:90%;
+		height:90%;
+	}
+	*.videoWrapper iframe{
 		position: absolute;
 		margin:auto;
 		top: 0; bottom: 0;
