@@ -9,10 +9,9 @@ tags: write
 permalink: triangulation
 ---
 ## My implementation:
-<p>
-	Here I've used <a src="https://en.wikipedia.org/wiki/Supersampling#Poisson_disc">poisson disc sampling</a> to get an even distribution of points and then triangulated them.
-</p>
-<p>I've tried various methods to speed up the algorithm. Although some algorithms are easy to understand and implement, they may not be as efficient. So, in order to get quick results, I used the <a src="https://mapbox.github.io/delaunator/">Delunator library</a> which I do not understand at all. But hey, it gets the job done faster. </p>
+Here I've used [`poisson disc sampling`]("https://en.wikipedia.org/wiki/Supersampling#Poisson_disk")to get an even distribution of points and then triangulated them.
+
+I've tried various methods to speed up the algorithm. Although some algorithms are easy to understand and implement, they may not be as efficient. So, in order to get quick results, I used the [`Delunator library`]("https://mapbox.github.io/delaunator/") which I do not understand at all. But hey, it gets the job done faster.
 
 
 ###	Click on the render to get a new set of points
@@ -65,15 +64,14 @@ Two conclusions can be drawn from these definitions:
 	<li> For the Delaunay triangulation to be unique, it is necessary that no 4 points from the set  <b>S</b>  lie on the same circumcircle.</li>
 </ul>
 
-### [You can find some python code and a bit more explanation here](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb)
-### [And the code I used to make this in JavaScript](https://github.com/TahsinTariq/p5js/tree/master/P5_Sketches/P5_Web_Collection/Delunay_triangulation)
+#### You can find some python code and a bit more explanation [`here`](https://github.com/TahsinTariq/Jupyter-stuff/blob/main/triangulation/Triangulation%20-%20Copy.ipynb) and the code I used to make this in [`JavaScript`](https://github.com/TahsinTariq/p5js/tree/master/P5_Sketches/P5_Web_Collection/Delunay_triangulation)
 
 <p>
 </p>
 
 Here's a different render I made using triangulation. For this, the points were sampled from an image using a color threshold.
 <!-- <div style="display:flex"> -->
-<div style="width: 75%; margin: 0 auto;">
+<div style="display: grid; place-items:center;">
 	<img src = "{% link assets/images/shaan_triangulated.jpg %}" alt = "Triangulated Image 1">
 </div>
 <!-- </div> -->
