@@ -16,7 +16,7 @@ Creating a terrain manually for a game or just for visualization purposes is a r
 
 Perlin noise is a procedurally generated noise texture developed by ken perlin. How perlin noise is generated using code is discussed thoroughly **[`here`](https://rtouti.github.io/graphics/perlin-noise-algorithm)**. I'll be using the built in noise function that generates perlin noise for processing. 
 
-In order to render the terrain, we need some geometry. We can generate tile the plane with cubes, but that would look more like minecraft. We could choose randomly generated points. But due to the randomness, the points are too close to each other. 
+In order to render the terrain, we need some geometry. We can generate tile the plane with cubes, but that would look more like minecraft. We could choose randomly generated points. But purely random or even pseudo-random choices have a tendency of clustering together. This phenomenon is known as [`Poisson Clumping`](https://en.wikipedia.org/wiki/Poisson_clumping). Pure or pseudo-random points are not good choices because of this phenomenon, as shown below.
 
 <div class="grid">
 	<img  src="{% link assets/alternate_images/random.png %}" alt="random points" data-position="center center" />
@@ -24,7 +24,7 @@ In order to render the terrain, we need some geometry. We can generate tile the 
 <p>
 </p>
 
-So, instead we use a different sort of random point generation called **[`Poisson Disc Sampling`](https://en.wikipedia.org/wiki/Supersampling#Poisson_disk)**. This generates random points at a given interval and thus making them more uniform.
+So, instead we use a different sort of random point generation called **[`Poisson Disc Sampling`](https://en.wikipedia.org/wiki/Supersampling#Poisson_disk)**. This generates random points at a given interval and thus making them more uniform. This is a much better choice for generating terrains.
 
 Now if we triangulate the points,We should get a plane with enough geometry to offset using the generated height map. I go into some details on triangulation [`here`](https://tahsintariq.github.io/triangulation). The final result should look something like this (without the animation of course):
 
